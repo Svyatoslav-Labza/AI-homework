@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-03T14:47:26 MSK" name="Surefire suite" finished-at="2025-06-03T14:47:27 MSK" duration-ms="1239">
+    <groups>
+    </groups>
+    <test started-at="2025-06-03T14:47:26 MSK" name="Surefire test" finished-at="2025-06-03T14:47:27 MSK" duration-ms="1239">
+      <class name="com.apitesting.FakeStoreAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.apitesting.FakeStoreAPITest@7f1302d6]" started-at="2025-06-03T14:47:26 MSK" name="setup" finished-at="2025-06-03T14:47:27 MSK" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPriceRange()[pri:0, instance:com.apitesting.FakeStoreAPITest@7f1302d6]" started-at="2025-06-03T14:47:27 MSK" name="testPriceRange" finished-at="2025-06-03T14:47:27 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceRange -->
+        <test-method signature="testProductValidation()[pri:0, instance:com.apitesting.FakeStoreAPITest@7f1302d6]" started-at="2025-06-03T14:47:27 MSK" name="testProductValidation" finished-at="2025-06-03T14:47:27 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductValidation -->
+        <test-method signature="testRatingRange()[pri:0, instance:com.apitesting.FakeStoreAPITest@7f1302d6]" started-at="2025-06-03T14:47:27 MSK" name="testRatingRange" finished-at="2025-06-03T14:47:27 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRatingRange -->
+        <test-method signature="testResponseStructure()[pri:0, instance:com.apitesting.FakeStoreAPITest@7f1302d6]" started-at="2025-06-03T14:47:27 MSK" name="testResponseStructure" finished-at="2025-06-03T14:47:27 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseStructure -->
+      </class> <!-- com.apitesting.FakeStoreAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
