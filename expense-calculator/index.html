@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Expenses Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Expenses Calculator</h1>
+        
+        <div class="input-section">
+            <h2>Enter Your Expenses</h2>
+            <form id="expenseForm">
+                <div class="input-group">
+                    <input type="text" id="category" placeholder="Category" required>
+                    <input type="number" id="amount" placeholder="Amount ($)" step="0.01" min="0" required>
+                    <button type="submit">Add Expense</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="expenses-table">
+            <h2>Expense List</h2>
+            <table id="expensesTable">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount ($)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="expensesList">
+                </tbody>
+            </table>
+            <div class="calculate-button-container">
+                <button id="calculateButton" class="calculate-btn">Calculate Results</button>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <h2>Monthly Analysis</h2>
+            <div class="indicators">
+                <div class="indicator">
+                    <h3>Total Expenses</h3>
+                    <p id="totalExpenses">$0.00</p>
+                </div>
+                <div class="indicator">
+                    <h3>Average Daily Expense</h3>
+                    <p id="averageDaily">$0.00</p>
+                </div>
+                <div class="indicator">
+                    <h3>Top 3 Largest Expenses</h3>
+                    <ul id="topExpenses">
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
